@@ -193,6 +193,14 @@
     z-index: 2; /* Ensures text appears above the waves */
 }
 
+/* Adjust font size for mobile screens */
+@media screen and (max-width: 768px) {
+    .about-info__wavy-text {
+        font-size: 8rem;
+    }
+}
+
+
 /* Subtle Glow Animation */
 @keyframes glowWave {
     0% { text-shadow: 0 0 5px rgba(234, 190, 123, 0.5); }
